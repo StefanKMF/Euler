@@ -3,6 +3,8 @@
  * StefanKristoff.ca
 */
 
+import java.util.Arrays;
+
 public class P007{
 
   public static void main(String[] args){
@@ -27,13 +29,12 @@ public class P007{
 
       newPrime += 2;
     }
-
   return oldPrimes[num-1];
 
   }
 
   public boolean isPrime(int num){
-    for (int x=2; x < Math.sqrt(num); x++){
+    for (int x=2; x <= Math.sqrt(num); x++){
       if (num % x == 0)
         return false;
     }
