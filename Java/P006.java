@@ -1,4 +1,4 @@
-/* Project Euler problem 5 Solution
+/* Project Euler problem 6 Solution
  * by Stefan KMF
  * StefanKristoff.ca
 */
