@@ -20,6 +20,8 @@ public class P008{
     for (int i = 0; i < series.length() - lengthNums; i++){
       newProduct = 1;
       for (int x = 0; x < lengthNums; x++){
+        System.out.println("A:" + (series.charAt(i + x) - '0'));
+        System.out.println("B:" + series.charAt(i + x));
         newProduct *= series.charAt(i + x) - '0';
       }
 
